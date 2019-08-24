@@ -11,8 +11,5 @@ $selection-background: rgba(219,219,219,0.99) !default;
 $selection-text:       #000 !default;
 $background-color:     #000 !default;
 
-img {
-    max-width: 100%;
-}
-
+@import "img.css"
 @import "base";
