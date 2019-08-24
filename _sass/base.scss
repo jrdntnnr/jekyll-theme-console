@@ -10,6 +10,7 @@ $mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  600px !default;
+$img-max-width:        600px !default;
 
 /**
  * Global
@@ -27,7 +28,6 @@ h3:before { content: "###";  margin-right: 9px; }
 h4:before { content: "####";  margin-right: 9px; }
 h5:before { content: "#####";  margin-right: 9px; }
 h6:before { content: "######";  margin-right: 9px; }*/
-img {width: 100%; height: auto;}
 
 /**
  * Layout
