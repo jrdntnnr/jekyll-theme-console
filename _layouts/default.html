@@ -9,6 +9,13 @@
       {%- include header.html -%}
 
     <main>
+      - var text = "Jordan Tanner | Englishman in Tel Aviv"
+
+div.wrapper
+    div.letters
+        each letter in text
+          h1.letter !{letter}
+
       {{ content }}
     </main>
 
