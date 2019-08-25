@@ -156,7 +156,7 @@ $font: (
 $config: (
     animated: false,
     nb-letters: 44,
-    animation-length: 6s,
+    animation-length: 8s,
     mask-letters: ("א", "ד", "ש", "ג", "ב", "צ", "ק", "ע", "פ", "ל")
 );
 
@@ -213,14 +213,12 @@ $config: (
 .letter {
     width: font(size);
     display: inline-block;
-    vertical-align: middle;
     position: relative;
     overflow: hidden;
     font-family: font(family);
     font-size: font(size);
-    font-weight: 700;
+    font-weight: 600;
     line-height: font(size);
-    text-transform: uppercase;
     color: color(text);
     @include respond-to(625px) {
         //font-size: 16px;
