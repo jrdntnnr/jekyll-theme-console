@@ -9,6 +9,11 @@
       {%- include header.html -%}
 
     <main>
+      
+      - var text = "Jordan Tanner | Englishman in Tel Aviv"
+        each letter in text
+          span.letter !{letter}
+
       {{ content }}
     </main>
 
