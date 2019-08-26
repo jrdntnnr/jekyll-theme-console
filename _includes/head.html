@@ -12,20 +12,13 @@
       {{ page.title }}
     {% endif %}
   </title>
-  {%- seo title=false -%}
   {% seo %}
-  <meta property="og:url" content="{{ page.url }}" />
-  <meta property="og:title" content="{{ page.og_title }}" />
-  <meta property="og:description" content="{{ page.og_description }}" />
-  <meta property="og:image" content="{{ page.og_image }}" />
-  <meta property="og:type"  content="{{ page.og_type }}" />
-  <meta property="og:locale"  content="en_US" />
+  <meta property="og:image" content="assets/og.png" />
   {%- if site.style == 'light' -%}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
   {%- else -%}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
   {%- endif -%}
-
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
