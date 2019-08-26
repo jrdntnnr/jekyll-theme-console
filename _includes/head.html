@@ -12,8 +12,16 @@
       {{ page.title }}
     {% endif %}
   </title>
-  {% seo %}
+  <meta name="description" content="Computer art, painting and sculpture." />
+  <meta property="og:title" content="Jordan Tanner | Englishman in Tel Aviv" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="Computer art, painting and sculpture." />
+  <meta property="og:url" content="jrdntnnr.ml/" />
   <meta property="og:image" content="assets/og.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@jrdntnnr" />
+  <script type="application/ld+json">
+  {"headline":"/jrdntnnr","sameAs":["https://twitter.com/jrdntnnr","https://instagram.com/jrdntnnr"],"@type":"WebSite","url":"jrdntnnr.ml/","name":"Jordan Tanner","description":"Jordan Tanner - Computer art, painting and sculpture.","@context":"http://schema.org"}</script>
   {%- if site.style == 'light' -%}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
   {%- else -%}
