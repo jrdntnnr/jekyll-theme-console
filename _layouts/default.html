@@ -15,7 +15,12 @@
       {% elsif page.name == "contact.md" %}
         <div class="animated"><span class="letter">C</span><span class="letter">o</span><span class="letter">n</span><span class="letter">t</span><span class="letter">a</span><span class="letter">c</span><span class="letter">t</span></div>
       {% endif %}
-
+      
+<!-- Import the component -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<!-- Use it like any other HTML element -->
+<model-viewer camera-controls skybox-image="../assets/Sprite-0001.hdr" alt="A 3D model of a damaged helmet" src="../assets/astronaut.glb></model-viewer>
       {{ content }}
           
     </main>
