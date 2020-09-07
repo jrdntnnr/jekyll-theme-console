@@ -60,7 +60,7 @@ footer { margin-bottom: 20px; }
  */
 ::selection { background: $selection-background;  color: $selection-text; }
 ::-moz-selection { background: $selection-background;  color: $selection-text; }
-
+.userInput {outline: none;}
 /**
  * Lists
  */
