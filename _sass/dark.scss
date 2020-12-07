@@ -9,7 +9,7 @@ $link-color:           $base-color !default;
 $border:               dashed 1px #fff3d1 !default;
 $selection-background: #fff3d1 !default;
 $selection-text:       #000 !default;
-$background-color:     rgba(255,0,0,0); !default;
+$background-color:     rgba(255,0,0,0) !default;
 
 @import "base";
 @import "aframe";
